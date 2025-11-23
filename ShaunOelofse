@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GATVOL - Is South Africa Being Served or Serviced</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; font-family: 'Lato', sans-serif; background:#f5f5f5; color:#333; }
+  header { background: #1a1a1a; color:#fff; text-align:center; padding:60px 20px; }
+  header h1 { font-family:'Montserrat', sans-serif; font-size:4em; margin:10px 0; color:#ffcc00; }
+  header h2 { font-size:1.5em; font-weight:400; margin:0; }
+  section { padding:60px 20px; max-width:1200px; margin:0 auto; }
+  h3 { text-align:center; font-size:2em; margin-bottom:40px; }
+  .province-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+  .province-card { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.1); text-align:center; }
+  .province-card img { width:100%; height:150px; object-fit:cover; }
+  .province-card h4 { margin:15px 0 5px 0; }
+  .province-card p { margin:0 15px 15px 15px; font-size:0.9em; }
+  table { width:100%; border-collapse:collapse; margin-top:20px; }
+  table, th, td { border:1px solid #ccc; }
+  th, td { padding:12px; text-align:center; }
+  th { background:#1a1a1a; color:#fff; }
+  tfoot td { font-weight:bold; }
+  .cta { text-align:center; margin-top:60px; }
+  .cta a { display:inline-block; padding:15px 25px; background:#ffcc00; color:#1a1a1a; text-decoration:none; font-weight:bold; border-radius:5px; margin:5px; }
+  footer { background:#1a1a1a; color:#fff; text-align:center; padding:40px 20px; }
+  @media(max-width:600px){header h1{font-size:3em;} header h2{font-size:1.2em;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Is South Africa Being Served or Serviced</h2>
+  <h1>GATVOL</h1>
+  <p>Exploring SA's tax revenue, government spend, and what’s left</p>
+</header>
+
+<section>
+  <h3>Provincial Tax Revenue vs Government Salaries</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Province</th>
+        <th>Tax Revenue (R)</th>
+        <th>Government Salaries (R)</th>
+        <th>Net Remaining (R)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Gauteng</td><td>R50B</td><td>R6.7B</td><td>R43.3B</td></tr>
+      <tr><td>Western Cape</td><td>R21B</td><td>R3.1B</td><td>R17.9B</td></tr>
+      <tr><td>KwaZulu-Natal</td><td>R15B</td><td>R2.5B</td><td>R12.5B</td></tr>
+      <tr><td>Eastern Cape</td><td>R8B</td><td>R1.7B</td><td>R6.3B</td></tr>
+      <tr><td>Free State</td><td>R5B</td><td>R1.1B</td><td>R3.9B</td></tr>
+      <tr><td>Mpumalanga</td><td>R6B</td><td>R1.2B</td><td>R4.8B</td></tr>
+      <tr><td>Limpopo</td><td>R3.3B</td><td>R1.2B</td><td>R2.1B</td></tr>
+      <tr><td>North West</td><td>R4.3B</td><td>R1.1B</td><td>R3.2B</td></tr>
+      <tr><td>Northern Cape</td><td>R1.5B</td><td>R1.01B</td><td>R0.49B</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h3>Provinces & Landmarks</h3>
+  <div class="province-grid">
+    <div class="province-card">
+      <img src="images/gautheng.jpg" alt="Gauteng">
+      <h4>Gauteng</h4>
+      <p>Union Buildings, Johannesburg skyline</p>
+    </div>
+    <div class="province-card">
+      <img src="images/westerncape.jpg" alt="Western Cape">
+      <h4>Western Cape</h4>
+      <p>Table Mountain, Cape Town Waterfront</p>
+    </div>
+    <div class="province-card">
+      <img src="images/kwazulu.jpg" alt="KwaZulu-Natal">
+      <h4>KwaZulu-Natal</h4>
+      <p>Drakensberg Mountains, uShaka Marine World</p>
+    </div>
+    <!-- Repeat cards for all 9 provinces -->
+  </div>
+</section>
+
+<section class="cta">
+  <h3>Join the Movement</h3>
+  <a href="https://twitter.com/intent/tweet?text=I%20support%20GATVOL!" target="_blank">Share on Twitter</a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https://www.serveorservice.co.za" target="_blank">Share on Facebook</a>
+</section>
+
+<footer>
+  <p>© 2025 GATVOL Movement. All rights reserved.</p>
+  <p>Follow us: <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
